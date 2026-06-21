@@ -2,8 +2,8 @@ name: 📡 RSS 财经新闻自动推送
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 北京时间 9:00 (UTC 1:00)
-    - cron: '0 10 * * *'  # 北京时间 17:00 (UTC 9:00)
+    - cron: '0 23 * * *'  # 北京时间 07:00 (UTC 23:00)
+    - cron: '0 5 * * *'   # 北京时间 13:00 (UTC 05:00)
 
   workflow_dispatch:  # 允许手动触发
 
